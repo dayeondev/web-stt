@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+  .app-shell {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .control-panel,
+  .transcript-paper {
+    padding: var(--space-5);
+  }
+
+  .status-strip,
+  .transcript-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .queue-count {
+    text-align: left;
+  }
+
+  .actions {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .button {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}

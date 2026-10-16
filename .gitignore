@@ -1,0 +1,17 @@
+# Python
+backend/.venv/
+backend/.env
+backend/__pycache__/
+backend/**/*.py[cod]
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Tooling
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.omo/
